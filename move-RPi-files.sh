@@ -1,0 +1,1 @@
+rsync -r ./raspi pi@raspberrypi.local:/home/pi/mqtt-broker
