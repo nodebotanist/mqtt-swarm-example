@@ -20,6 +20,7 @@ var server = new mosca.Server(settings)
 var adafruitIOClient = mqtt.connect('mqtt://io.adafruit.com', {
   username: process.env.ADAFRUIT_IO_USERNAME,
   password: process.env.ADAFRUIT_AIO_KEY,
+  clientId: 'nodebotanist-pi-ace',
   port: 1883
 })
  
