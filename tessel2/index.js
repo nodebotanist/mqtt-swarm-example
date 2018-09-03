@@ -1,7 +1,8 @@
 const mqtt = require('mqtt')
 
 let mqttRPiClient = mqtt.connect('mqtt://192.168.1.107', {
-  port: 1883
+  port: 1883,
+  clientId: 'nodebotanist-tessel2-ace'
 })
 
 mqttRPiClient.on('connect', () => {
