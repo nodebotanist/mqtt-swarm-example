@@ -1,1 +1,1 @@
-rsync -r ./raspi pi@raspberrypi.local:/home/pi/mqtt-broker
+rsync -r ./raspi pi@nodebotanist-pi-ace.local:/home/pi/mqtt-broker
