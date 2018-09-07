@@ -53,6 +53,10 @@ adafruitIOClient.on('message', (topic, message) => {
       payload: message
     })
   }
+  server.publish({
+    topic: 'general',
+    payload: message 
+  })
 })
  
 // fired when the mqtt server is ready
