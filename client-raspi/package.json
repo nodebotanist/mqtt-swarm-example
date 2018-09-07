@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-raspi-client-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nodebotanist",
+  "license": "ISC",
+  "dependencies": {
+    "jvsdisplayotron": "^1.1.0",
+    "mqtt": "^2.18.8"
+  }
+}
